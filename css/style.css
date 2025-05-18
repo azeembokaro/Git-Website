@@ -21,3 +21,18 @@
      color: #faa419;
      background: darkblue;
 }
+
+.cta{
+     background-color: #050505;
+     border: 3px solid #faa419;
+     color: #faa419;
+     font-size: 17px;
+     font-weight: 900;
+     line-height: 13px;
+     padding: 9px 21px;
+}
+
+.hero-img img{
+    width: 80%;
+    margin: auto;
+}
