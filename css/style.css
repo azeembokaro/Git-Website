@@ -9,6 +9,12 @@
 .navigation-wrap, .dropdown-menu li a{
     background-color: #050505;
 }
+
+.navigation-wrap .nav-item .nav-link:hover{
+ color: #ff1e5c;
+}
+ 
+
 .navbar-brand{
     color: #faa419;
 }
@@ -26,11 +32,27 @@
      background-color: #050505;
      border: 3px solid #faa419;
      color: #faa419;
-     font-size: 17px;
+     font-size: 20px;
      font-weight: 900;
      line-height: 13px;
      padding: 9px 21px;
+     transition: all .2s linear;
+     
 }
+
+.book{
+    border-radius: 20px;
+    border: 2px solid blue;
+    color: white;
+    transition: .2s linear;
+}
+
+.cta:hover, .book:hover{
+    color: #ff1e5c;
+    background: #37bd6c;
+}
+
+
 
 .hero-img img{
     width: 80%;
