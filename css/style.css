@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------Header Styling---------------------------------------------------- */
+.navigation-wrap, .dropdown-menu li a{
+    background-color: #050505;
+}
+.navbar-brand{
+    color: #faa419;
+}
+
+.navigation-wrap .nav-item a, .dropdown-menu li a{
+    color: #ffffff;
+}
+
+.dropdown-menu li a:hover{
+     color: #faa419;
+     background: darkblue;
+}
